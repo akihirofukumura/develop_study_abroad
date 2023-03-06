@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Normal</h1>
+    <div>
+      <label for="name">Full Name <span style="color: tomato">※</span></label>
+      <input type="text" placeholder="First Name" id="name" />
+      <input type="text" placeholder="Last Name" id="name" />
+    </div>
+    <div>
+      <label for="University"
+        >University<span style="color: tomato">※</span></label
+      >
+      <select name="University" id="University">
+        <option value="">Select University</option>
+        <option value="Tokyo university">Tokyo University</option>
+        <option value="Osaka university">Osaka University</option>
+        <option value="Harvard University ">Harvard University</option>
+      </select>
+    </div>
+    <div>
+      <label for="other">If Other - Please Specify</label>
+      <input type="text" id="other" />
+    </div>
+    <div>
+      <label for="">Faculty<span style="color: tomato">※</span></label>
+      <select name="Faculty" id="Faculty">
+        <option value="">Select Faculty</option>
+        <option value="Faculty of Science">Science</option>
+        <option value="Faculty of Math">Math</option>
+        <option value="Faculty of Japanese">Japanese</option>
+      </select>
+    </div>
+    <div>
+      <label for="other">If Other - Please Specify</label>
+      <input type="text" id="other" />
+    </div>
+    <div>
+      <label for="phD">Academic year of phD</label>
+      <select name="phD" id="phD">
+        <option value="">Select Year</option>
+        <option value="2023">2023</option>
+        <option value="2022">2022</option>
+        <option value="2021">2021</option>
+      </select>
+    </div>
+    <div>
+      <label for="work">Where wolud you like to work</label>
+      <input type="checkbox" id="Academic" />
+      <label for="Academic">Academic</label>
+      <input type="checkbox" id="Industry" />
+      <label for="Industry">Industry</label>
+      <input type="checkbox" id="Consultancy" />
+      <label for="Consultancy">Consultancy</label>
+      <input type="checkbox" id="Finance" />
+      <label for="Finance">Finance</label>
+      <input type="checkbox" id="Policy" />
+      <label for="Policy">Policy/Goverment/NGO</label>
+    </div>
+    <div>
+      <label for="mail">E-mail<span style="color: tomato">※</span></label>
+      <input
+        type="email"
+        name=""
+        id="mail"
+        placeholder="ex:myname@example.com"
+        size="24"
+      />
+      <input type="email" id="mail" placeholder="Confirm Email" size="24" />
+    </div>
+    <div>
+      <label for="">Wolud you like to sign up to our newsletter?</label>
+      <input type="radio" id="Yes" />
+      <label for="Yes">Yes</label>
+      <input type="radio" id="alredy" />
+      <label for="alredy">No,I have alredy signed up</label>
+      <input type="radio" id="No" />
+      <label for="No">No</label>
+    </div>
+
+    <h1>Use element of table ver.</h1>
+    <table>
+      <tr>
+        <td>
+          <label for="name"
+            >Full Name <span style="color: tomato">※</span></label
+          >
+        </td>
+        <td>
+          <input type="text" placeholder="First Name" id="name" />
+          <input type="text" placeholder="Last Name" id="name" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="University"
+            >University<span style="color: tomato">※</span></label
+          >
+        </td>
+        <td>
+          <select name="University" id="University">
+            <option value="">Select University</option>
+            <option value="Tokyo university">Tokyo University</option>
+            <option value="Osaka university">Osaka University</option>
+            <option value="Harvard University ">Harvard University</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="other">If Other - Please Specify</label></td>
+        <td><input type="text" id="other" /></td>
+      </tr>
+      <tr>
+        <td>
+          <label for="">Faculty<span style="color: tomato">※</span></label>
+        </td>
+        <td>
+          <select name="Faculty" id="Faculty">
+            <option value="">Select Faculty</option>
+            <option value="Faculty of Science">Science</option>
+            <option value="Faculty of Math">Math</option>
+            <option value="Faculty of Japanese">Japanese</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="other">If Other - Please Specify</label></td>
+        <td><input type="text" id="other" /></td>
+      </tr>
+      <tr>
+        <td><label for="phD">Academic year of phD</label></td>
+        <td>
+          <select name="phD" id="phD">
+            <option value="">Select Year</option>
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="6">
+          <label for="work"
+            >Where wolud you like to <br />
+            work</label
+          >
+        </td>
+        <td>
+          <input type="checkbox" id="Academic" />
+          <label for="Academic">Academic</label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="checkbox" id="Industry" />
+          <label for="Industry">Industry</label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="checkbox" id="Industry" />
+          <label for="Industry">Industry</label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="checkbox" id="Consultancy" />
+          <label for="Consultancy">Consultancy</label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="checkbox" id="Finance" />
+          <label for="Finance">Finance</label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="checkbox" id="Policy" />
+          <label for="Policy">Policy/Goverment/NGO</label>
+        </td>
+      </tr>
+
+      <tr>
+        <td rowspan="2">
+          <label for="mail">E-mail<span style="color: tomato">※</span></label>
+        </td>
+        <td>
+          <input
+            type="email"
+            name=""
+            id="mail"
+            placeholder="ex:myname@example.com"
+            size="24"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="email" id="mail" placeholder="Confirm Email" size="24" />
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="6">
+          <label for=""
+            >Wolud you like to sign up <br />
+            to our newsletter?</label
+          >
+        </td>
+        <td>
+          <input type="radio" id="Yes" />
+          <label for="Yes">Yes</label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="radio" id="alredy" />
+          <label for="alredy">No,I have alredy signed up</label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="radio" id="No" />
+          <label for="No">No</label>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
