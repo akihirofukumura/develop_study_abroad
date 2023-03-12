@@ -27,8 +27,93 @@
         <h2 class="display-2"><i class="fa-solid fa-user"></i> Profile</h2>
       </div>
     </header>
-    <div class="contaier">
-      <form action=""></form>
+    <div class="contaier w-75 mx-auto mt-5">
+      <form action="" class="form w-50 float-start me-5">
+        <div class="row mb-2">
+          <div class="col">
+            <label for="firstname" class="form-label">First Name</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Mark"
+              id="firstname"
+            />
+          </div>
+          <div class="col">
+            <label for="lastname" class="form-label">Last Name</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Last Name"
+              id="lastname"
+            />
+          </div>
+        </div>
+        <div class="row mb-2">
+          <div class="col">
+            <label for="address" class="form-label">address</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="California,USA"
+              id="address"
+            />
+          </div>
+          <div class="col">
+            <label for="contact" class="mb-2">Contact Number</label>
+            <input
+              type="email"
+              class="form-control"
+              placeholder="789-785547-452"
+              id="contact"
+            />
+          </div>
+        </div>
+        <div class="row mb-2 px-2">
+          <label for="name">username</label>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="mark"
+            id="name"
+          />
+        </div>
+        <div class="row mb-4 px-2">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            placeholder="Enter password to confirm"
+            id="password"
+          />
+        </div>
+        <div class="row px-2">
+          <button class="btn btn-primary text-white">UPDATE</button>
+        </div>
+      </form>
+      <div class="card bg-white border">
+        <div class="card-header">
+          <img
+            src="https://cdn.pixabay.com/photo/2018/04/27/03/50/portrait-3353699_1280.jpg"
+            alt=""
+            class="w-100"
+          />
+        </div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col pe-0">
+              <button class="btn btn-secondary">choose</button>
+            </div>
+            <div class="col-9 ps-0">
+              <input
+                type="text"
+                class="border form-control"
+                placeholder="No file chosen"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
